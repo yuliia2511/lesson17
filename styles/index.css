@@ -89,7 +89,7 @@ h2 {
 
 h4, h2 {
     text-align: start;            
-	margin: 20px 0 30px;
+	margin: 20px 0 -19px;
 	padding: 0 4px;
 }
 
@@ -99,7 +99,7 @@ h4, h2 {
     gap: 0px;
     flex-wrap: wrap;                 
 	justify-content: space-around;   
-	padding: 20px 0;                 
+	padding: 45px 0;                 
 	width: 100%;                     
 }
 
