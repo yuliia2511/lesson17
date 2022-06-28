@@ -34,10 +34,8 @@ h2, h4, p {
 
 .navigation-wrapper {
     display: flex;
-    flex: none;
-    flex-wrap: wrap;
-	justify-content: space-between;
 	align-items: center;
+    gap: 12px;
     max-width: 1200px;
 	width: 100%;                 
 	padding: 10px 35px;
@@ -45,7 +43,12 @@ h2, h4, p {
 }
 
 .header-logo {
-    margin-right: 20px;  
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #16133D;
 }
 
 .service {
@@ -117,7 +120,7 @@ h4, h2 {
     border-radius: 8px;margin-bottom: 30px;
 }
 
-#card-green {
+.card:hover {
     border: 1px solid #3DB370;
 }
 
@@ -145,28 +148,33 @@ footer {
     height: 100%;              
 	box-sizing: border-box;
     gap: 20px;
-    padding: 20px 35px;
-    height: 245px;   
+    padding: 20px 35px;  
+}
+
+.footer__name {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
 }
 
 .footer__socials {
     display: flex;
     gap: 10px;
     width: 200px;
+    height: 40px; 
 }
 
 .footer__socials:hover {
    stroke: #aa1888;
 }
 
-.footer__logo,
-.footer-socials {
-    display: flex;
-    flex-direction: column;  
-}
-
 .footer__logo {
-    width: 200px;
-    height: 35px;
+   width: 200px;
+   height: 50px;
+   display: flex;
+   gap: 12px;
 }
 
